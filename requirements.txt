@@ -1,0 +1,19 @@
+# Combined dependencies for both examples.
+# For a minimal install, use the requirements.txt inside the specific example folder.
+
+# Core
+llama-index==0.11.20
+python-dotenv==1.0.1
+nest-asyncio==1.6.0
+
+# GraphRAG Example (OpenAI)
+llama-index-readers-json==0.2.0
+llama-index-llms-openai==0.2.16
+llama-index-embeddings-openai==0.2.5
+pyvis==0.3.2
+
+# Simple Vector Index Example (Groq + Hugging Face + LlamaParse)
+llama-parse==0.5.15
+groq==0.11.0
+llama-index-llms-groq==0.2.0
+llama-index-embeddings-huggingface==0.3.1

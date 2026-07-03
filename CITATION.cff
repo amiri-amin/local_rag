@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LlamaIndex RAG Examples"
+abstract: >-
+  A collection of Retrieval-Augmented Generation (RAG) reference implementations
+  built with LlamaIndex, including a GraphRAG multi-hop reasoning example and a
+  classic vector-index RAG pipeline.
+type: software
+authors:
+  - family-names: "Amiri"
+    given-names: "Amin"
+license: MIT
+keywords:
+  - retrieval-augmented-generation
+  - rag
+  - graphrag
+  - llamaindex
+  - large-language-models
+  - knowledge-graph
+  - vector-search
